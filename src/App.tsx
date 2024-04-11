@@ -59,8 +59,11 @@ function App() {
 
   return (
     <>
+      <h1 className="flex items-center justify-center mx-2  font-extrabold sm:mt-5 sm:text-3xl">
+        Drag and Drop Game
+      </h1>
       <div className="grid row-span-2 ">
-        <div className="flex flex-col-reverse sm:flex-row sm:w-screen  items-center justify-evenly mt-10 ">
+        <div className="flex flex-col sm:flex-row sm:w-screen  items-center justify-evenly sm:mt-10 ">
           <div className="grid row-span-3 shadow-md ">
             <SubZoneCard
               label="Source"
