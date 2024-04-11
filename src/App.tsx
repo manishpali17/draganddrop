@@ -5,35 +5,35 @@ import Button from "./components/button";
 import type { Item } from "../types";
 
 const items = [
-  { id: 1, name: "Battery", type: "Source", src: "/src/assets/9vBattery.png" },
-  { id: 2, name: "AC", type: "Load", src: "src/assets/AC.png" },
+  { id: 1, name: "Battery", type: "Source", src: "/9vBattery.png" },
+  { id: 2, name: "AC", type: "Load", src: "/AC.png" },
   {
     id: 3,
     name: "Home Battery",
     type: "Source",
-    src: "src/assets/Home Battery.png",
+    src: "/Home Battery.png",
   },
-  { id: 4, name: "Nail", type: "Path", src: "src/assets/nail.png" },
+  { id: 4, name: "Nail", type: "Path", src: "/nail.png" },
   {
     id: 5,
     name: "Refrigerator",
     type: "Load",
-    src: "src/assets/Refrigerator.png",
+    src: "Refrigerator.png",
   },
-  { id: 6, name: "Table Fan", type: "Load", src: "src/assets/Table Fan.png" },
+  { id: 6, name: "Table Fan", type: "Load", src: "/Table Fan.png" },
   {
     id: 7,
     name: "Wall Outlet",
     type: "Source",
-    src: "src/assets/Wall Outlet.png",
+    src: "/Wall Outlet.png",
   },
   {
     id: 8,
     name: "Wall Switch",
     type: "Path",
-    src: "src/assets/Wall Switch.png",
+    src: "/Wall Switch.png",
   },
-  { id: 9, name: "Wire", type: "Path", src: "src/assets/Wire.png" },
+  { id: 9, name: "Wire", type: "Path", src: "/Wire.png" },
 ];
 
 function App() {
